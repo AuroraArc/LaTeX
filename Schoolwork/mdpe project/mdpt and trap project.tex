@@ -55,7 +55,7 @@
 
 \newpage
 
-{\section{Table of Values}}
+\section{Table of Values}
 
 \begin{table}[h]
  \renewcommand*{\arraystretch}{1.8}
@@ -68,7 +68,7 @@
    \hline
    $f(x)=3x^{4}-x^{3}+7x$     & $[0,1]$ & $20$ & $3.849063047$  & $3.851874375$ & $3.85$            & $-2.0000500559$    \\
    \hline
-   $sin(\frac{\pi x^{2}}{9})$ & $[0,1]$ & $20$ & $0.1152781773$ & $0.115383$    & $0.1153465199$    & $-1.996998944$     \\
+   $sin(\frac{\pi x^{2}}{9})$ & $[0,1]$ & $20$ & $0.1152781773$ & $0.115483$    & $0.1153465199$    & $-1.996998944$     \\
    \hline
    $e^{2x}$                   & $[0,1]$ & $20$ & $3.193197384$  & $3.197189713$ & $3.194528049$     & $-2.000251002$     \\
    \hline
@@ -76,7 +76,6 @@
    \hline
   \end{tabular}}
 \end{table}
-
 
 \section{Sides on the Integral}
 
@@ -114,7 +113,7 @@
   \vskip 16pt
   $3.851874375>3.85\hspace{1cm}(T>E)$
   \vskip 16pt
-  $0.115383>0.1153465199\hspace{1cm}(T>E)$
+  $0.115483>0.1153465199\hspace{1cm}(T>E)$
   \vskip 16pt
   $3.197189713>3.194528049\hspace{1cm}(T>E)$
   \vskip 16pt
@@ -172,18 +171,54 @@ Based on the information presented, the midpoint and trapezoidal approximations 
   \vskip 16pt
   $\delta=0.048685\%$
   \vskip 16pt
-  $\delta=0.031627\%$
+  $\delta=0.118322\%$
   \vskip 16pt
   $\delta=0.083319\%$
   \vskip 16pt
   $\delta=0.002503\%$
   \vskip 16pt
-  $\%\hspace{0.1cm}\text{avg}=0.036675\%$
+  $\%\hspace{0.1cm}\text{avg}=0.054014\%$
  \end{center}
 \end{minipage}
 
 \vspace{1cm}
 
-The midpoint approximation is, in most cases, closer to the exact value of the integral than the trapezoidal approximation. The average for the midpoint approximation is closer.
+The midpoint approximation and its average is closer to the exact value of the integral than the trapezoidal approximation.
+
+\newpage
+
+\section{Ratios}
+
+\begin{large}
+
+Interpret the ratios found in the last column of the table. Use the information found to find an expression for E in terms of M and T.
+
+\end{large}
+
+\vspace{1cm}
+
+By looking at the values found in the last column, it is clear that $\dfrac{E-T}{E-M}$ approaches $-2$.\\
+By solving for E from the equation,
+
+\vspace{0.7cm}
+\centerline{$\dfrac{E-T}{E-M}=-2$}
+\vspace{0.7cm}
+\centerline{$E-T=-2E+2M$}
+\vspace{0.7cm}
+\centerline{$3E=T+2M$}
+\vspace{0.7cm}
+\centerline{$E=\dfrac{T+2M}{3}$.}
+
+\section{Geometric Argument \#1}
+
+\begin{large}
+
+Give a geometric argument to explain why the midpoint approximation gives the exact value of the integral in the case where $f(x)$ has the form $f(x)=-mx+b$.
+
+\vspace{1cm}
+
+
+
+\end{large}
 
 \end{document}
