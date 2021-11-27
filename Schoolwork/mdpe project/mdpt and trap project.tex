@@ -3,12 +3,32 @@
 %% Language and font encodings
 \usepackage[english]{babel}
 
-%% page size and margins
+%% page size and margins (changable)
+% \setlength{\evensidemargin}{0in}
+% \setlength{\oddsidemargin}{0.5in}
+% \setlength{\textwidth}{6in}
+% \setlength{\topmargin}{0.2in}
+% \setlength{\textheight}{8.6in}
+% \setlength{\footnotesep}{14pt}
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.75cm]{geometry}
 \setlength {\marginparwidth}{2cm}
 
 %% packages
 \usepackage{amsmath,amsthm,amssymb,amsfonts}
+
+% theorem types
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem*{uconj}{Uniform Boundedness Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition} [theorem] {Definition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example} [theorem] {Example}
+\newtheorem{remark} [theorem] {Remark}
+
 \mathchardef\mhyphen="2D
 \usepackage{graphicx}
 \usepackage{tabularx}
@@ -17,8 +37,6 @@
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 \usepackage{enumitem}
 \usepackage{marginnote}
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.13}
 \usepackage{mathtools}
 \usepackage[normalem]{ulem}
 \usepackage[utf8]{inputenc}
@@ -26,10 +44,35 @@
 \usepackage{booktabs}
 \usepackage{enumitem}
 
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\N}{\mathbb{N}}
-\newcommand{\Z}{\mathbb{Z}}
-\providecommand{\C}{\mathbb{C}}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+
+% user-defined macros
+\newcommand{\C}{{\mathbb{C}}}
+\newcommand{\F}{{\mathbb{F}}}
+\newcommand{\N}{{\mathbb{N}}}
+\newcommand{\Q}{{\mathbb{Q}}}
+\newcommand{\PP}{{\mathbb{P}}}
+\newcommand{\R}{{\mathbb{R}}}
+\newcommand{\Z}{{\mathbb{Z}}}
+
+\newcommand{\cK}{{\mathcal{K}}}
+
+\newcommand{\fm}{{\mathfrak{m}}}
+\newcommand{\fo}{{\mathfrak{o}}}
+
+\newcommand{\Cp}{\C_p}
+\newcommand{\Cv}{\C_v}
+\newcommand{\Qp}{\Q_p}
+\newcommand{\Qpbar}{\bar{\Q}_p}
+\newcommand{\Dbar}{\overline{D}}
+
+% user-defined math operators
+\DeclareMathOperator{\rad}{rad}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\divop}{div}
 
 \begin{document}
 
@@ -76,6 +119,8 @@
    \hline
   \end{tabular}}
 \end{table}
+
+\pagebreak
 
 \section{Sides on the Integral}
 
@@ -191,7 +236,7 @@ The midpoint approximation and its average is closer to the exact value of the i
 
 \begin{large}
 
-Interpret the ratios found in the last column of the table. Use the information found to find an expression for E in terms of M and T.
+ Interpret the ratios found in the last column of the table. Use the information found to find an expression for E in terms of M and T.
 
 \end{large}
 
@@ -209,15 +254,67 @@ By solving for E from the equation,
 \vspace{0.7cm}
 \centerline{$E=\dfrac{T+2M}{3}$.}
 
+\pagebreak
+
 \section{Geometric Argument \#1}
 
 \begin{large}
 
-Give a geometric argument to explain why the midpoint approximation gives the exact value of the integral in the case where $f(x)$ has the form $f(x)=-mx+b$.
+ Give a geometric argument to explain why the midpoint approximation gives the exact value of the integral in the case where $f(x)$ has the form $f(x)=-mx+b$.
+
+\end{large}
 
 \vspace{1cm}
 
+Taking the general formula $f(x)=-mx+b$, we find two possible points on the graph. For this example, we take the x values from the x- and y-intercepts as our two points for the endpoints of the integral for the midpoint approximation.
 
+\vspace{1cm}
+
+\centering
+
+\includegraphics[scale=0.25]{desmos-graph.png}
+
+\raggedright
+
+\begin{minipage}{0.45\textwidth}
+ \begin{center}
+  Midpoint Approximation
+ \end{center}
+ For n = 1, $\Delta x$
+ \vskip 16pt
+ $=\ \dfrac{\dfrac{b}{m}-0}{1}$
+ \vskip 16pt
+ $=\ \dfrac{b}{m}$ .
+ \vskip 16pt
+ For midpoint approximation, $\Delta x\, [\, f\,(\, \dfrac{x}{2}\, )\, ]$
+ \vskip 16pt
+ $=\ \dfrac{b}{m}\, \cdot\, \dfrac{b}{2}$
+ \vskip 16pt
+ $=\ \dfrac{b^2}{2m}$ .
+ \vskip 16pt
+ The area obtained from the midpoint approximation equals $\dfrac{b^2}{2m}$ .
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+ \begin{center}
+  \vspace{-56mm}
+  Triangle
+ \end{center}
+ \vskip 16pt
+ Area of triangle\ $=\dfrac{1}{2}\cdot b\cdot \dfrac{b}{m}$
+ \vskip 16pt
+ $=\ \dfrac{b^2}{2m}$ .
+ \vskip 16pt
+ The area of the triangle is $\dfrac{b^2}{2m}$ .
+\end{minipage}
+
+\pagebreak
+
+\section{Geometric Argument \# 2}
+
+\begin{large}
+
+  Give a geometric argument t to explain why the information from your table showed that $M\, <  \int_{0}^{2} e^{x^2} \, dx\, <\, T$ .
 
 \end{large}
 
