@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.11)  27 NOV 2021 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.11)  28 NOV 2021 18:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -761,50 +761,50 @@ Overfull \hbox (1.78442pt too wide) in paragraph at lines 145--146
  []
 
 [2] [3] [4]
-<desmos-graph.png, id=63, 803.0pt x 803.0pt>
+<desmos-graph.png, id=67, 803.0pt x 803.0pt>
 File: desmos-graph.png Graphic file (type png)
 <use desmos-graph.png>
 Package pdftex.def Info: desmos-graph.png  used on input line 275.
 (pdftex.def)             Requested size: 200.74951pt x 200.74951pt.
  [5 <./desmos-graph.png>]
-<trapezoid.png, id=70, 803.0pt x 803.0pt>
+<trapezoid.png, id=74, 803.0pt x 803.0pt>
 File: trapezoid.png Graphic file (type png)
 <use trapezoid.png>
 Package pdftex.def Info: trapezoid.png  used on input line 327.
 (pdftex.def)             Requested size: 200.74951pt x 200.74951pt.
-<midpoint.png, id=71, 803.0pt x 803.0pt>
+<midpoint.png, id=75, 803.0pt x 803.0pt>
 File: midpoint.png Graphic file (type png)
 <use midpoint.png>
 Package pdftex.def Info: midpoint.png  used on input line 335.
 (pdftex.def)             Requested size: 200.74951pt x 200.74951pt.
  [6 <./trapezoid.png> <./midpoint.png>]
-<trapezoid1.png, id=83, 803.0pt x 803.0pt>
+<trapezoid1.png, id=87, 803.0pt x 803.0pt>
 File: trapezoid1.png Graphic file (type png)
 <use trapezoid1.png>
 Package pdftex.def Info: trapezoid1.png  used on input line 357.
 (pdftex.def)             Requested size: 200.74951pt x 200.74951pt.
-<midpoint1.png, id=84, 803.0pt x 803.0pt>
+<midpoint1.png, id=88, 803.0pt x 803.0pt>
 File: midpoint1.png Graphic file (type png)
 <use midpoint1.png>
 Package pdftex.def Info: midpoint1.png  used on input line 365.
 (pdftex.def)             Requested size: 200.74951pt x 200.74951pt.
- [7 <./trapezoid1.png> <./midpoint1.png>] (./mdpt and trap project.aux)
+ [7 <./trapezoid1.png> <./midpoint1.png>] [8] (./mdpt and trap project.aux)
 Package rerunfilecheck Info: File `"mdpt and trap project".out' has not changed.
-(rerunfilecheck)             Checksum: D54F773BCFCE45049DD98E6CB41AC3CE;997.
+(rerunfilecheck)             Checksum: 4A9AD03DE25065C089F8206AF8999095;1113.
  ) 
 Here is how much of TeX's memory you used:
- 33217 strings out of 478579
- 759583 string characters out of 5857451
+ 33220 strings out of 478579
+ 759609 string characters out of 5857451
  1208012 words of memory out of 5000000
- 50540 multiletter control sequences out of 15000+600000
+ 50541 multiletter control sequences out of 15000+600000
  414701 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,97p,744b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-<g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "mdpt and trap project.pdf" (8 pages, 251838 bytes).
+<g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "mdpt and trap project.pdf" (9 pages, 263303 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 

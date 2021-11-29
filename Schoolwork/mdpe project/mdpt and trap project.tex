@@ -375,10 +375,23 @@ From the two graphs above, it is clear to see that the trapezoidal approximation
 \section{Simpson's Rule}
 
 \begin{large}
-  Prove that E is SImpson's Rule with a little twist.
+  Prove that E is Simpson's Rule with a little twist.
 \end{large}
 
 \vspace{1cm}
 
+First, recall the formulas for the midpoint rule, the trapezoidal rule, and Simpson's Rule while keeping in mind that in order for Simpson's Rule to work, n must be an even number.
+
+\vspace{1cm}
+
+$S_n=\dfrac{\Delta x}{3}\, [f(x_0)+4(x_1)+2f(x_2)+4f(x_3)+2f(x_4)+\ldots+2f(x_{n-2})+4f(x_{n-1})+f(x_n)]$
+
+\vspace{1cm}
+
+$T_n=\dfrac{\Delta x}{2}\{ f(x_0)+2[f(x_1)+f(x_2)+f(x_3)+\ldots +f(x_{n-3})+f(x_{n-2})+f(x_{n-1})]+f(x_n)\}$
+
+\vspace{1cm}
+
+$M_n=\Delta x[f(\dfrac{x_0+x_1}{2})+f(\dfrac{x_1+x_2}{2})+\ldots +f(\dfrac{x_{n-2}+x_{n-1}}{2})+f(\dfrac{x_{n-1}+x_n}{2})]$
 
 \end{document}

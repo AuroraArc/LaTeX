@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1638063646 "mdpt and trap project.tex" "mdpt and trap project.pdf" "mdpt and trap project" 1638063648
+["pdflatex"] 1638145035 "mdpt and trap project.tex" "mdpt and trap project.pdf" "mdpt and trap project" 1638145037
   "desmos-graph.png" 1638053597 45566 dd5aed8e3c7fce83b666836d89fd0e59 ""
   "g:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1636676166 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "g:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1636673904 1004 54797486969f23fa377b128694d548df ""
@@ -36,6 +36,7 @@
   "g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1636673904 32762 7fee39e011c23b3589931effd97b9702 ""
   "g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1636673904 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1636673904 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1636673904 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "g:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1636677936 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "g:/texlive/2021/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1636674069 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "g:/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf" 1636674139 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -226,15 +227,15 @@
   "g:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1636680932 4401551 b6c4bf05e1b1567ffcb98f08d5f97a34 ""
   "g:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1636681132 2805282 7450da7f609487a316319a627fd8ba9f ""
   "g:/texlive/2021/texmf.cnf" 1636680909 713 e69b156964470283e0530f5060668171 ""
-  "mdpt and trap project.aux" 1638063648 1577 b65edd64c8d753891e90cfa7da3bf629 "pdflatex"
-  "mdpt and trap project.out" 1638063648 997 d54f773bcfce45049dd98e6cb41ac3ce "pdflatex"
-  "mdpt and trap project.tex" 1638063645 9782 c0a410b25e1f7325d427349494dbf8f9 ""
+  "mdpt and trap project.aux" 1638145037 1688 dd346625676c1da169d69fe505b47b83 "pdflatex"
+  "mdpt and trap project.out" 1638145037 1113 4a9ad03de25065c089f8206af8999095 "pdflatex"
+  "mdpt and trap project.tex" 1638145034 10505 68ddf427a56400a3d799f5c9a6c568e8 ""
   "midpoint.png" 1638062075 52557 d6c35d114eace4390277ee3fb73a3d8e ""
   "midpoint1.png" 1638063385 51589 3bd1434bfe64345ea89a08d2249b47c1 ""
   "trapezoid.png" 1638062018 51638 1e4a5a4b65ffc60c2dc46f0c60060c85 ""
   "trapezoid1.png" 1638063429 51035 1c8fc9e8100852e58943fabd368251db ""
   (generated)
-  "mdpt and trap project.out"
-  "mdpt and trap project.log"
   "mdpt and trap project.pdf"
+  "mdpt and trap project.log"
   "mdpt and trap project.aux"
+  "mdpt and trap project.out"
