@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.11)  30 NOV 2021 01:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.11)  30 NOV 2021 01:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -873,7 +873,7 @@ Here is how much of TeX's memory you used:
  99i,12n,117p,744b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
 <g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/texlive/2021/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "mdpt and trap project.pdf" (12 pages, 310151 bytes).
+Output written on "mdpt and trap project.pdf" (12 pages, 311348 bytes).
 PDF statistics:
  202 PDF objects out of 1000 (max. 8388607)
  140 compressed objects within 2 object streams
