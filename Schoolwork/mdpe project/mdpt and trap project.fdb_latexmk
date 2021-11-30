@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1638257799 "mdpt and trap project.tex" "mdpt and trap project.pdf" "mdpt and trap project" 1638257802
+["pdflatex"] 1638258130 "mdpt and trap project.tex" "mdpt and trap project.pdf" "mdpt and trap project" 1638258134
   "default.tikzstyles" 1638257215 785 6ef3389362a241bc941d076dfe28e7a3 ""
   "desmos-graph.png" 1638053597 45566 dd5aed8e3c7fce83b666836d89fd0e59 ""
   "g:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1636676166 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -253,16 +253,16 @@
   "g:/texlive/2021/texmf.cnf" 1636680909 713 e69b156964470283e0530f5060668171 ""
   "graph1.tikz" 1638257215 2325 ba2061907ca49a679f6ccf93a414a544 ""
   "graph2.tikz" 1638257215 2400 836b8aa8bbc1f7600cd8e742039294e1 ""
-  "mdpt and trap project.aux" 1638257801 1690 74318ef56cb397073906cb4522f5ebf2 "pdflatex"
-  "mdpt and trap project.out" 1638257801 1121 13f8be1bb53f09fee8edda342f0b7c82 "pdflatex"
-  "mdpt and trap project.tex" 1638257798 12963 a0482866c78873282ed9dc97d3c594f1 ""
+  "mdpt and trap project.aux" 1638258134 1690 74318ef56cb397073906cb4522f5ebf2 "pdflatex"
+  "mdpt and trap project.out" 1638258134 1121 13f8be1bb53f09fee8edda342f0b7c82 "pdflatex"
+  "mdpt and trap project.tex" 1638258128 12964 b19c986f2a44599f745e0ad6c26c4318 ""
   "midpoint.png" 1638062075 52557 d6c35d114eace4390277ee3fb73a3d8e ""
   "midpoint1.png" 1638063385 51589 3bd1434bfe64345ea89a08d2249b47c1 ""
   "tikzit.sty" 1638257215 1206 bd3a4ee1dccdce0fc641973c4461749d ""
   "trapezoid.png" 1638062018 51638 1e4a5a4b65ffc60c2dc46f0c60060c85 ""
   "trapezoid1.png" 1638063429 51035 1c8fc9e8100852e58943fabd368251db ""
   (generated)
+  "mdpt and trap project.pdf"
+  "mdpt and trap project.out"
   "mdpt and trap project.aux"
   "mdpt and trap project.log"
-  "mdpt and trap project.out"
-  "mdpt and trap project.pdf"
