@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.11)  28 NOV 2021 18:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.11.11)  30 NOV 2021 01:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -580,45 +580,61 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count318
 \@lastruleclass=\count319
 \@thisrulewidth=\dimen302
+) (g:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (g:/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen303
+\captionmargin@=\dimen304
+\captionwidth=\dimen305
+\caption@tempdima=\dimen306
+\caption@indent=\dimen307
+\caption@parindent=\dimen308
+\caption@hangindent=\dimen309
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count320
+\c@continuedfloat=\count321
+Package caption Info: hyperref package is loaded.
 ) (g:/texlive/2021/texmf-dist/tex/latex/pgfplots/pgfplots.sty (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+
+(g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks49
 \t@pgfplots@tokb=\toks50
 \t@pgfplots@tokc=\toks51
-\pgfplots@tmpa=\dimen303
-\c@pgfplots@coordindex=\count320
-\c@pgfplots@scanlineindex=\count321
-
-(g:/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count322
-) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count323
+\pgfplots@tmpa=\dimen310
+\c@pgfplots@coordindex=\count322
+\c@pgfplots@scanlineindex=\count323
+ (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count324
+) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex)
+(g:/texlive/2021/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count325
 \t@pgfplotstable@a=\toks52
-) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex)
-(g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count324
- (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex)))
-(g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen304
-\pgfdecoratedremainingdistance=\dimen305
-\pgfdecoratedinputsegmentcompleteddistance=\dimen306
-\pgfdecoratedinputsegmentremainingdistance=\dimen307
-\pgf@decorate@distancetomove=\dimen308
-\pgf@decorate@repeatstate=\count325
-\pgfdecorationsegmentamplitude=\dimen309
-\pgfdecorationsegmentlength=\dimen310
+) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count326
+ (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen311
+\pgfdecoratedremainingdistance=\dimen312
+\pgfdecoratedinputsegmentcompleteddistance=\dimen313
+\pgfdecoratedinputsegmentremainingdistance=\dimen314
+\pgf@decorate@distancetomove=\dimen315
+\pgf@decorate@repeatstate=\count327
+\pgfdecorationsegmentamplitude=\dimen316
+\pgfdecorationsegmentlength=\dimen317
 )
 \tikz@lib@dec@box=\box70
-) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
-(g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count326
-\pgfplots@xmin@reg=\dimen311
-\pgfplots@xmax@reg=\dimen312
-\pgfplots@ymin@reg=\dimen313
-\pgfplots@ymax@reg=\dimen314
-\pgfplots@zmin@reg=\dimen315
-\pgfplots@zmax@reg=\dimen316
+) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count328
+\pgfplots@xmin@reg=\dimen318
+\pgfplots@xmax@reg=\dimen319
+\pgfplots@ymin@reg=\dimen320
+\pgfplots@ymax@reg=\dimen321
+\pgfplots@zmin@reg=\dimen322
+\pgfplots@zmax@reg=\dimen323
 ) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
@@ -626,36 +642,89 @@ File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (g:/texlive/2021/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
+) (./tikzit.sty (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@layerbox@background=\box71
+\pgf@layerboxsaved@background=\box72
 ) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen317
-)) (g:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+\arrowsize=\dimen324
+))
+(g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (g:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (g:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodepartlowerbox=\box73
+\pgfnodeparttwobox=\box74
+\pgfnodepartthreebox=\box75
+\pgfnodepartfourbox=\box76
+\pgfnodeparttwentybox=\box77
+\pgfnodepartnineteenbox=\box78
+\pgfnodeparteighteenbox=\box79
+\pgfnodepartseventeenbox=\box80
+\pgfnodepartsixteenbox=\box81
+\pgfnodepartfifteenbox=\box82
+\pgfnodepartfourteenbox=\box83
+\pgfnodepartthirteenbox=\box84
+\pgfnodeparttwelvebox=\box85
+\pgfnodepartelevenbox=\box86
+\pgfnodeparttenbox=\box87
+\pgfnodepartninebox=\box88
+\pgfnodeparteightbox=\box89
+\pgfnodepartsevenbox=\box90
+\pgfnodepartsixbox=\box91
+\pgfnodepartfivebox=\box92
+)))
+\pgf@layerbox@edgelayer=\box93
+\pgf@layerboxsaved@edgelayer=\box94
+\pgf@layerbox@nodelayer=\box95
+\pgf@layerboxsaved@nodelayer=\box96
+) (./default.tikzstyles) (g:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count327
-\l__pdf_internal_box=\box71
+\l__color_backend_stack_int=\count329
+\l__pdf_internal_box=\box97
 ) (./mdpt and trap project.aux)
 \openout1 = `"mdpt and trap project.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -693,16 +762,16 @@ LaTeX Font Info:    ... okay on input line 77.
 
 (g:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count328
-\scratchdimen=\dimen318
-\scratchbox=\box72
-\nofMPsegments=\count329
-\nofMParguments=\count330
+\scratchcounter=\count330
+\scratchdimen=\dimen325
+\scratchbox=\box98
+\nofMPsegments=\count331
+\nofMParguments=\count332
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count331
-\MPscratchDim=\dimen319
-\MPnumerator=\count332
-\makeMPintoPDFobject=\count333
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen326
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
 \everyMPtoPDFconversion=\toks54
 ) (g:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -710,7 +779,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (g:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 77.
+Package hyperref Info: Link coloring ON on input line 80.
  (g:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (g:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -718,93 +787,96 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (g:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count334
+\c@section@level=\count336
 )
-LaTeX Info: Redefining \ref on input line 77.
-LaTeX Info: Redefining \pageref on input line 77.
-LaTeX Info: Redefining \nameref on input line 77.
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
  (./mdpt and trap project.out) (./mdpt and trap project.out)
 \@outlinefile=\write4
 \openout4 = `"mdpt and trap project.out"'.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.15).
 
 [1
 
 {g:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 120.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 123.
  (g:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 120.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 123.
  (g:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 120.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 123.
  (g:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (29.80714pt too wide) in paragraph at lines 120--121
+Overfull \hbox (29.80714pt too wide) in paragraph at lines 123--124
 [][] 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.124 
+l.127 
        [1]
-Package marginnote Info: Using workaround for absolute page number on input line 124.
+Package marginnote Info: Using workaround for absolute page number on input line 127.
 
-Overfull \hbox (1.78442pt too wide) in paragraph at lines 145--146
+Overfull \hbox (1.78442pt too wide) in paragraph at lines 148--149
  [][] 
  []
 
 [2] [3] [4]
-<desmos-graph.png, id=67, 803.0pt x 803.0pt>
+<desmos-graph.png, id=68, 803.0pt x 803.0pt>
 File: desmos-graph.png Graphic file (type png)
 <use desmos-graph.png>
-Package pdftex.def Info: desmos-graph.png  used on input line 275.
+Package pdftex.def Info: desmos-graph.png  used on input line 278.
 (pdftex.def)             Requested size: 200.74951pt x 200.74951pt.
  [5 <./desmos-graph.png>]
-<trapezoid.png, id=74, 803.0pt x 803.0pt>
+<trapezoid.png, id=75, 803.0pt x 803.0pt>
 File: trapezoid.png Graphic file (type png)
 <use trapezoid.png>
-Package pdftex.def Info: trapezoid.png  used on input line 327.
+Package pdftex.def Info: trapezoid.png  used on input line 330.
 (pdftex.def)             Requested size: 200.74951pt x 200.74951pt.
-<midpoint.png, id=75, 803.0pt x 803.0pt>
+<midpoint.png, id=76, 803.0pt x 803.0pt>
 File: midpoint.png Graphic file (type png)
 <use midpoint.png>
-Package pdftex.def Info: midpoint.png  used on input line 335.
+Package pdftex.def Info: midpoint.png  used on input line 338.
 (pdftex.def)             Requested size: 200.74951pt x 200.74951pt.
  [6 <./trapezoid.png> <./midpoint.png>]
-<trapezoid1.png, id=87, 803.0pt x 803.0pt>
+<trapezoid1.png, id=88, 803.0pt x 803.0pt>
 File: trapezoid1.png Graphic file (type png)
 <use trapezoid1.png>
-Package pdftex.def Info: trapezoid1.png  used on input line 357.
+Package pdftex.def Info: trapezoid1.png  used on input line 360.
 (pdftex.def)             Requested size: 200.74951pt x 200.74951pt.
-<midpoint1.png, id=88, 803.0pt x 803.0pt>
+<midpoint1.png, id=89, 803.0pt x 803.0pt>
 File: midpoint1.png Graphic file (type png)
 <use midpoint1.png>
-Package pdftex.def Info: midpoint1.png  used on input line 365.
+Package pdftex.def Info: midpoint1.png  used on input line 368.
 (pdftex.def)             Requested size: 200.74951pt x 200.74951pt.
- [7 <./trapezoid1.png> <./midpoint1.png>] [8] (./mdpt and trap project.aux)
+ [7 <./trapezoid1.png> <./midpoint1.png>] (./graph1.tikz) [8] (./graph2.tikz) [9] [10] [11] (./mdpt and trap project.aux)
 Package rerunfilecheck Info: File `"mdpt and trap project".out' has not changed.
-(rerunfilecheck)             Checksum: 4A9AD03DE25065C089F8206AF8999095;1113.
+(rerunfilecheck)             Checksum: 13F8BE1BB53F09FEE8EDDA342F0B7C82;1121.
  ) 
 Here is how much of TeX's memory you used:
- 33220 strings out of 478579
- 759609 string characters out of 5857451
- 1208012 words of memory out of 5000000
- 50541 multiletter control sequences out of 15000+600000
- 414701 words of font info for 74 fonts, out of 8000000 for 9000
+ 36718 strings out of 478579
+ 845796 string characters out of 5857451
+ 1274927 words of memory out of 5000000
+ 53970 multiletter control sequences out of 15000+600000
+ 415510 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,97p,744b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-<g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "mdpt and trap project.pdf" (9 pages, 263303 bytes).
+ 99i,12n,117p,744b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
+<g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><g:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "mdpt and trap project.pdf" (12 pages, 310151 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
+ 202 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
  102 words of extra memory for PDF output out of 10000 (max. 10000000)
 

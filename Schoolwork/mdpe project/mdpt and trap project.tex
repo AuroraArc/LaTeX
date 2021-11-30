@@ -43,11 +43,14 @@
 \usepackage{fancyhdr}
 \usepackage{booktabs}
 \usepackage{enumitem}
+\usepackage{caption}
 
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.15}
 \usepackage{mathrsfs}
-\usetikzlibrary{arrows}
+\usepackage{tikz}
+\usepackage{tikzit}
+\input{default.tikzstyles}
 
 % user-defined macros
 \newcommand{\C}{{\mathbb{C}}}
@@ -256,7 +259,7 @@ By solving for E from the equation,
 
 \pagebreak
 
-\section{Geometric Argument \#1}
+\section{Geometric Argument \# 1}
 
 \begin{large}
 
@@ -380,7 +383,7 @@ From the two graphs above, it is clear to see that the trapezoidal approximation
 
 \vspace{1cm}
 
-First, recall the formulas for the midpoint rule, the trapezoidal rule, and Simpson's Rule while keeping in mind that in order for Simpson's Rule to work, n must be an even number.
+First, recall the formulas for the midpoint rule, the trapezoidal rule, and Simpson's Rule.
 
 \vspace{1cm}
 
@@ -393,5 +396,113 @@ $T_n=\dfrac{\Delta x}{2}\{ f(x_0)+2[f(x_1)+f(x_2)+f(x_3)+\ldots +f(x_{n-3})+f(x_
 \vspace{1cm}
 
 $M_n=\Delta x[f(\dfrac{x_0+x_1}{2})+f(\dfrac{x_1+x_2}{2})+\ldots +f(\dfrac{x_{n-2}+x_{n-1}}{2})+f(\dfrac{x_{n-1}+x_n}{2})]$
+
+\vspace{1cm}
+
+\begin{center}
+    \scalebox{2}{\tikzfig{graph1}}
+\end{center}
+
+\begin{center}
+Graph showing the relationship between the rules.
+\end{center}
+
+\vspace{1cm}
+
+\pagebreak
+
+For Simpson's Rule to work, the number of subintervals (n) must be even.
+
+\vspace{1cm}
+
+\begin{center}
+    \scalebox{2}{\tikzfig{graph2}}
+\end{center}
+
+\vspace{1cm}
+
+$T_n=\dfrac{2\cdot\Delta x}{2}\{f(x_0)+2[f(x_2)+f(x_4)+f(x_6)+\ldots +f(x_{2n-4})+f(x_{2n-2})]+f(x_{2n})\}$
+
+\vspace{0.5cm}
+
+The trapezoidal rule represents all the even terms of the set 2n.
+
+\vspace{1cm}
+
+$M_n=2\cdot \Delta x[f(x_1)+f(x_3)+f(x_5)+\ldots +f(x_{2n-5})+f(x_{2n-3})+f(x_{2n-1})]$
+
+\vspace{0.5cm}
+
+The midpoint rule represents all the odd terms of the set 2n.
+
+\vspace{0.5cm}
+
+Notice how the trapezoidal and midpoint rule both only have n terms. This is because 2n terms is divided evenly between the two rules.
+
+\vspace{1cm}
+
+$S_{2n}=\dfrac{\Delta x}{3}[f(x_0)+4f(x_1)+2f(x_2)+\cdot +2f(x_{2n-2})+4f(x_{2n-1})+f(x_{2n})]$
+
+\vspace{0.5cm}
+
+Combining the trapezoidal and midpoint rules and substituting the terms inside Simpson's Rule, we obtain,
+
+\vspace{1cm}
+
+$S_{2n}=\dfrac{\Delta x}{3}[f(x_0)+4f(x_1)+2f(x_2)+4f(x_3)+\ldots +4f(x_{2n-3})+2f(x_{2n-2})+4f(x_{2n-1})+f(x_{2n})]$
+
+\vspace{0.5cm}
+
+The even terms are from the trapezoidal rule and also happen to be equal to one another, whereas the odd terms are from the midpoint rule and are four times its amount.
+
+\vspace{1cm}
+
+\pagebreak
+
+$S_{2n}=\dfrac{\Delta x}{3}[\, \dfrac{4M_n}{2\Delta x}+\dfrac{T_n}{\dfrac{2\Delta x}{2}}\, ]$
+
+\vskip 16pt
+
+$=\dfrac{1}{3}\, [\, 2M_n+T_n\, ]$
+
+\vskip 16pt
+
+$=\dfrac{T_n+2M_n}{3}$.
+
+\vspace{1cm}
+
+This is the same formula that was found during problem 4,
+
+\vspace{0.5cm}
+
+\begin{center}
+    \hspace{-7mm}$E=\dfrac{T+2M}{3}$.
+\end{center}
+
+\vspace{0.5cm}
+
+Comparing to what we have obtained for Simpson's Rule,
+
+\vspace{0.5cm}
+
+\begin{center}
+   $=\dfrac{T_n+2M_n}{3}$.
+\end{center}
+
+\vskip 16pt
+
+\begin{center}
+    \hspace{-18mm}$\dfrac{T+2M}{3}$ = $\dfrac{T_n+2M_n}{3}$
+    \vskip 16pt
+    \hspace{-27mm}$\therefore\ \ S=E$
+\end{center}
+
+\pagebreak
+
+\section*{Contributions}
+
+\begin{large}
+
+\end{large}
 
 \end{document}
