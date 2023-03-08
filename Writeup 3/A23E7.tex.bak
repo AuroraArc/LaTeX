@@ -1,0 +1,91 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[fleqn]{amsmath}
+\usepackage{nccmath}
+\usepackage{amsfonts}
+\usepackage{setspace}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Henry Yu}
+\title{A13EC Writeup}
+\setlength{\mathindent}{0pt}
+
+\doublespacing
+
+\begin{document}
+
+\begin{titlepage}
+	
+	\begin{center}
+
+		\vspace*{\fill}
+
+    	\vspace*{0.5cm}
+	
+	    \huge{Perfect Writeup: Assignment 23 Exercise 7}
+	
+	    \vspace*{0.5cm}
+	
+	    \large{Henry Yu}
+	
+    	\vspace*{\fill}
+
+	\end{center}
+
+\end{titlepage}
+
+\raggedright
+
+\underline{Exercise 7}
+
+\bigbreak
+
+For fixed positive integer $k$, define the function
+
+$$
+f_{k}(x)=\frac{\Gamma\left(\frac{k+1}{2}\right)}{\sqrt{k \pi} \Gamma\left(\frac{k}{2}\right)}\left(1+\frac{x^{2}}{k}\right)^{-\left(\frac{k+1}{2}\right)} \text { for all } x \in \mathbb{R}
+$$
+
+Prove rigorously but concisely that $\lim _{k \rightarrow \infty} f_{k}(x)=\frac{1}{\sqrt{2 \pi}} e^{-x^{2} / 2}$.
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+To begin, we want to find the limit of $f_k(x)$ as $k\rightarrow\infty$:
+
+\begin{align*}
+	\lim_{k\rightarrow\infty}f_k(x)&=\lim _{k\rightarrow\infty}\frac{\Gamma(\frac{k+1}{2})}{\sqrt{k\pi}\Gamma(\frac{k}{2})}\cdot\lim_{k\rightarrow\infty}\left(1+\frac{x^2}{k}\right)^{-\frac{k+1}{2}}.
+\end{align*}
+
+Solving for the left limit,
+
+\begin{align*}
+	\lim _{k\rightarrow\infty}\frac{\Gamma(\frac{k+1}{2})}{\sqrt{k\pi}\Gamma(\frac{k}{2})}&=\frac{\left(\frac{k-1}{2e}\right)^{\frac{k-1}{2}}\sqrt{2\pi\left(\frac{k-1}{2}\right)}}{\left(\frac{k-2}{2e}\right)^{\frac{k-2}{2}}\sqrt{2k\pi^2\left(\frac{k-2}{2}\right)}} \\
+	&=\frac{\left(\frac{k-1}{2e}\right)^{\frac{k-1}{2}}}{\left(\frac{k-2}{2e}\right)^{\frac{k-2}{2}}}\cdot\sqrt{\frac{k-1}{k\pi(k-2)}} \\
+	&=\left(\frac{\frac{k-1}{2e}}{\frac{k-2}{2e}}\right)^{\frac{k-2}{2}}\cdot\sqrt{\frac{k-1}{2e}}\cdot\sqrt{\frac{k-1}{k\pi(k-2)}} \\
+	&=\left(\frac{k-1}{k-2}\right)^{\frac{k-2}{2}}\cdot\frac{k-1}{\sqrt{2ek\pi(k-2)}} \\
+	&=\left(\frac{k-1}{k-2}\right)^{\frac{k-2}{2}}\cdot\frac{\sqrt{k-2}}{\sqrt{2\pi}\sqrt{ek}} \\
+	&=\left[\sqrt{\left(1+\frac{1}{k-2}\right)^{k-2}}\cdot1+\frac{1}{k-2}\right]\cdot\frac{\sqrt{k-2}}{\sqrt{2\pi}\sqrt{ek}} \\
+	&=\sqrt{e}\cdot\frac{1}{\sqrt{2\pi}\sqrt{e}} \\
+	&=\frac{1}{2\pi}.
+\end{align*}
+
+The right limit of the function looks similar to a definition of $e^x$:
+
+\begin{align*}
+	\lim_{n\rightarrow\infty}\left(1+\frac{x}{n}\right)^n.
+\end{align*}
+
+\begin{align*}
+	\lim_{k\rightarrow\infty}\left(1+\frac{x^2}{k}\right)^{-\frac{k+1}{2}}=e^{-\frac{x^2}{2}}.
+\end{align*}
+
+Combining the answers of the right and left limits,
+
+\begin{align*}
+	f_k(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}.
+\end{align*}
+\end{document}
