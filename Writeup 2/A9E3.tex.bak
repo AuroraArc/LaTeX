@@ -1,0 +1,51 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[fleqn]{amsmath}
+\usepackage{nccmath}
+\usepackage{amsfonts}
+\usepackage{setspace}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Henry Yu}
+\title{A9E3 Writeup}
+\setlength{\mathindent}{0pt}
+
+\doublespacing
+
+\begin{document}
+
+\begin{titlepage}
+	
+	\begin{center}
+
+		\vspace*{\fill}
+
+    	\vspace*{0.5cm}
+	
+	    \huge{Perfect Writeup: Assignment 9 Exercise 3}
+	
+	    \vspace*{0.5cm}
+	
+	    \large{Henry Yu}
+	
+    	\vspace*{\fill}
+
+	\end{center}
+
+\end{titlepage}
+
+\raggedright
+
+\underline{Exercise 5}
+
+\bigbreak
+
+
+ 
+ \vspace{1cm}
+ 
+(a) 
+ 
+ \end{document}
