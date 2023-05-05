@@ -1,0 +1,94 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[fleqn]{amsmath}
+\usepackage{nccmath}
+\usepackage{amsfonts}
+\usepackage{setspace}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Henry Yu}
+\title{A13EC Writeup}
+\setlength{\mathindent}{0pt}
+
+\doublespacing
+
+\begin{document}
+
+\begin{titlepage}
+	
+	\begin{center}
+
+		\vspace*{\fill}
+
+    	\vspace*{0.5cm}
+	
+	    \huge{Perfect Writeup: Assignment 13 Extra Credit}
+	
+	    \vspace*{0.5cm}
+	
+	    \large{Henry Yu}
+	
+    	\vspace*{\fill}
+
+	\end{center}
+
+\end{titlepage}
+
+\raggedright
+
+\underline{Exercise 5}
+
+\bigbreak
+
+Assume that $a_{1}, \ldots, a_{n}>0, k>0$, and $p>1$. In the previous Exercise 4, it was found that $k\left(\sum_{j=1}^{n} a_{j}^{p /(p-1)}\right)^{(p-1) / p}$ is the maximum value of $f\left(x_{1}, \ldots, x_{n}\right)=a_{1} x_{1}+\ldots+a_{n} x_{n}$ subject to $x_{1}^{p}+\ldots+x_{n}^{p}=k^{p}$ and $x_{1}, \ldots, x_{n}>0$; this occurs when each $x_{i}=k a_{i}^{1 /(p-1)}\left(\sum_{j=1}^{n} a_{j}^{p /(p-1)}\right)^{-1 / p}$. Note how this obviously does not extend to the case $p=1$. So here is that separate case $p=1$: \\
+Prove that $k \max \left\{a_{1}, \ldots, a_{n}\right\}$ is the maximum value of $f\left(x_{1}, \ldots, x_{n}\right)=a_{1} x_{1}+\ldots+a_{n} x_{n}$ subject to $x_{1}+\ldots+x_{n}=k$ where $k, a_{1}, \ldots, a_{n}>0$, in two different ways: \\
+(a) First prove this using only careful "common sense". Notice that the argument must have two parts: first, show how, given any $a_{1}, \ldots, a_{n}$, corresponding values $x_{1}, \ldots, x_{n}$ can be chosen so that $x_{1}+\ldots+x_{n}=k$ and $a_{1} x_{1}+\ldots+a_{n} x_{n}=k A$; second, show that for any values $x_{1}, \ldots, x_{n}$ with $x_{1}+\ldots+x_{n}=k$, it is always true that $a_{1} x_{1}+\ldots+a_{n} x_{n} \leq k A$. \\
+(b) Second prove this by carefully showing that $A=\lim _{p \rightarrow 1^{+}}\left(\sum_{j=1}^{n} a_{j}^{p /(p-1)}\right)^{(p-1) / p}$.
+ 
+ \vspace{1cm}
+ 
+ %first case might not be needed 
+ %------------------------
+(a) The first case is, given $a_1,\dots,a_n$, corresponding values $x_1,\dots,x_n$ can be chosen. By setting all $a_i=A$, the maximum value of $f(x)$ occurs when $x_1,\dots,x_n$ is as large as possible while still under the constraints of $x_1+\dots+x_n=k$, so $x_i=\frac{k}{n}$. \\
+\begin{align*}
+	f(x)&=x_1a_1+\dots+x_na_n \\
+	&=a(x_1+\dots+x_n) \\
+	&=Ak \\
+	&=kA.
+\end{align*}
+%-------------------------
+
+The second case is, given $x_1,\dots,x_n$ with $x_1+\dots+x_n=k$, it is always true that $a_1x_1+\dots+a_nx_n\leq{}kA.$ This means that not all $a_i=A.$ Without loss of generality, suppose that $a_i=A$ and $a_i=0$ for all $i>1,$
+
+\begin{align*}
+	f(x)&=A*x_1+a_2x_2+\dots+a_nx_n \\
+	&=Ak \\
+	&=kA.
+\end{align*}
+
+(b) We want to prove that $A=\lim _{p \rightarrow 1^{+}}\left(\sum_{j=1}^{n} a_{j}^{p /(p-1)}\right)^{(p-1) / p}$. To do this, we start by letting $q=\frac{p}{p-1}$, where $q\rightarrow+\infty$ iff $p\rightarrow1^+,$
+\begin{align*}
+	A=\lim _{q\rightarrow+\infty}\left(\sum_{j=1}^{n} a_{j}^{q}\right)^{\frac{1}{q}}.
+\end{align*} 
+
+Dividing both sides by A,
+
+\begin{align*}
+	1=\lim_{q\rightarrow+\infty}\left(\frac{a_1^q}{A^q}+\frac{a_2^q}{A^q}+\dots+\frac{a_n^q}{A^q}				\right)^\frac{1}{q}.
+\end{align*}
+
+Let $b_j=\frac{a_j}{A}.$ Now, taking the natural log of both sides,
+
+\begin{align*}
+	\ln{1}=\lim_{q\rightarrow+\infty}\frac{\ln{\left(b_1^q+\dots+b_n^q\right)}}{q}.
+\end{align*}
+
+Taking the limit as q approaches $+\infty$, the expression goes to the value of $\ln{1}$, which is 0.
+
+\begin{align*}
+\therefore{}A=\lim _{p \rightarrow 1^{+}}\left(\sum_{j=1}^{n} a_{j}^{p /(p-1)}\right)^{(p-1) / p}.
+\end{align*}
+
+ \end{document}

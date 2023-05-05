@@ -1,0 +1,59 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[fleqn]{amsmath}
+\usepackage{nccmath}
+\usepackage{amsfonts}
+\usepackage{setspace}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Henry Yu}
+\title{A13EC Writeup}
+\setlength{\mathindent}{0pt}
+
+\doublespacing
+
+\begin{document}
+
+\begin{titlepage}
+	
+	\begin{center}
+
+		\vspace*{\fill}
+
+    	\vspace*{0.5cm}
+	
+	    \huge{Perfect Writeup: Assignment 31 Exercise 2}
+	
+	    \vspace*{0.5cm}
+	
+	    \large{Henry Yu}
+	
+    	\vspace*{\fill}
+
+	\end{center}
+
+\end{titlepage}
+
+\raggedright
+
+\underline{Exercise 2}
+
+\bigbreak
+
+Find the area of the region inside the hypocycloid parametrized by $\vec{r}(\theta)=\left\langle\cos ^{3} \theta, \sin ^{3} \theta\right\rangle$ where $0 \leq \theta \leq 2 \pi$. (Note from its graph in figure 7.5 that the area is slightly less than $\sqrt{2} \cdot \sqrt{2}=2$, the area of the smallest circumscribing square.)
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+We can use $\overrightarrow{\text{F}}$(x,y) = (0, x) because the curl equals 1.
+
+\begin{align*}
+	&\int_0^{2\pi}\langle0,\cos^3\theta\rangle\cdot\langle-3\cos\theta\sin\theta,3\sin^2\theta\cos\theta\rangle\,{d}\theta \\
+	&=3\int_0^{2\pi}\cos^4\theta\sin^2\theta\,{d}\theta \\
+	&=\frac{3\pi}{8} < 2
+\end{align*}
+
+\end{document}
