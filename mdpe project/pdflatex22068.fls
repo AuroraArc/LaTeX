@@ -1,0 +1,5 @@
+PWD G:/Programming/LaTeX/Schoolwork/mdpe project
+INPUT g:/texlive/2021/texmf.cnf
+INPUT g:/texlive/2021/texmf-dist/web2c/texmf.cnf
+INPUT g:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT mdpt and trap project.tex
