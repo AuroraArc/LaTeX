@@ -1,0 +1,123 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[fleqn]{amsmath}
+\usepackage{nccmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Henry Yu}
+\title{A6N4 Writeup}
+\setlength{\mathindent}{0pt}
+\begin{document}
+
+\begin{titlepage}
+	
+	\begin{center}
+
+		\vspace*{\fill}
+
+    	\vspace*{0.5cm}
+	
+	    \huge{Perfect Writeup: Assignment 6 No. 4}
+	
+	    \vspace*{0.5cm}
+	
+	    \large{Henry Yu}
+	
+    	\vspace*{\fill}
+
+	\end{center}
+
+\end{titlepage}
+
+\newpage
+
+\raggedright
+
+\underline{Question 4}
+
+\bigbreak
+
+
+Verify that for any two three-dimensional vectors $\vec{u}$ and $\vec{v}$,
+\begin{ceqn}
+\begin{align*}
+(|\vec{u} \times \vec{v}|)^{2}+(\vec{u} \cdot \vec{v})^{2}=(|\vec{u}||\vec{v}|)^{2}
+\end{align*}
+\end{ceqn}
+i.e.,
+\begin{ceqn}
+\begin{align*}
+\left(\frac{|\vec{u} \times \vec{v}|}{|\vec{u}||\vec{v}|}\right)^{2}+\left(\frac{\vec{u} \cdot \vec{v}}{|\vec{u}||\vec{v}|}\right)^{2}=1.
+\end{align*}
+\end{ceqn}
+
+What is the trigonometric relevance of this fact?
+
+\vspace{1cm}
+
+Note that,
+\begin{align*}
+	&(|\vec{u} \times \vec{v}|)^{2}+(\vec{u} \cdot \vec{v})^{2}=\,(|\vec{u}||\vec{v}|)^{2}  \\
+	&=\,(u_1^{2}+u_2^{2}+u_3^{2})(v_1^{2}+v_2^{2}+v_3^{2}). \\
+\end{align*}
+
+\vspace{-10pt}
+
+Thus,
+\begin{align*}
+	(|\vec{u} \times \vec{v}|)^{2}&=\,|\vec{u}|^{2}|\vec{v}|^{2}-|\vec{u}|^{2}|\vec{v}|^{2}\,\cos\,\theta \\
+	&=\,|\vec{u}|^{2}|\vec{v}|^{2}(1-\cos\,\theta)\,\sin^{2}\,\theta.
+\end{align*}
+
+Thus,
+\begin{align*}
+(|\vec{u} \times \vec{v}|)=(|\vec{u}||\vec{v}|)\,\sin\,\theta.
+\end{align*}
+
+$\therefore$
+\begin{align*}
+    \sin\,\theta=\left(\frac{|\vec{u} \times \vec{v}|}{|\vec{u}||\vec{v}|}\right).
+\end{align*}
+
+\begin{center}
+\rule{8cm}{0.4pt}
+\end{center}
+
+Note that,
+\begin{align*}
+    |\vec{u}-\vec{v}|^{2}=|\vec{u}|^{2}+|\vec{v}|^{2}-2|\vec{u}||\vec{v}|\cos\,\theta.
+\end{align*}
+
+Thus,
+\begin{align*}
+    2|\vec{u}||\vec{v}|\cos\,\theta&=|\vec{u}|^{2}+|\vec{v}|^{2}-|\vec{u}-\vec{v}|^{2} \\
+    &=(u_1^{2}+u_2^{2}+u_3^{2})+(v_1^{2}+v_2^{2}+v_3^{2})-(u_1-v_1)^{2}-(u_2-v_2)^{2}-(u_3-v_3)^{2} \\
+    &=u_1^{2}+u_2^{2}+u_3^{2}+v_1^{2}+v_2^{2}+v_3^{2}-(u_1^{2}-2u_1v_1+v_1^{2})-(u_2^{2}-2u_2v_2+v_2^{2})-(u_3^{2}-2u_3v_3+v_3^{2}) \\
+    &=2u_1v_1+2u_2v_2+2u_3v_3 \\
+    |\vec{u}||\vec{v}|\cos\,\theta&=u_1v_1+u_2v_2+u_3v_3
+\end{align*}
+
+$\therefore$
+\begin{align*}
+    \cos\,\theta=\left(\frac{\vec{u} \cdot \vec{v}}{|\vec{u}||\vec{v}|}\right).
+\end{align*}
+
+\begin{center}
+\rule{8cm}{0.4pt}
+\end{center}
+
+\begin{ceqn}
+    \begin{align*}
+        \left(\frac{|\vec{u} \times \vec{v}|}{|\vec{u}||\vec{v}|}\right)^{2}+\left(\frac{\vec{u} \cdot \vec{v}}{|\vec{u}||\vec{v}|}\right)^{2}=1.
+    \end{align*}
+\end{ceqn}
+
+\begin{ceqn}
+    \begin{align*}
+        (\cos\,\theta)\,^2+(\sin\,\theta)\,^2=1.
+    \end{align*}
+\end{ceqn}
+\end{document}
